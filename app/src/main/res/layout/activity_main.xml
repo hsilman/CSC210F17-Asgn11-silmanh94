@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fortuneTellerLinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.harrysilman.fortuneteller.MainActivity">
+
+    <TextView
+        android:id="@+id/questionPromptTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="@dimen/standard_padding"
+        android:text="@string/question_prompt_text"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/questionEditText"
+        android:layout_width="296dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.37"
+        android:ems="10"
+        android:gravity="bottom"
+        android:hint="@string/question_edit_text_default"
+        android:inputType="textShortMessage"
+        android:padding="@dimen/standard_padding"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium.Inverse" />
+
+    <Button
+        android:id="@+id/questionCompleteButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="@dimen/standard_padding"
+        android:text="@string/question_complete_button"
+        android:textAppearance="@android:style/TextAppearance.Material.Widget.Button" />
+
+    <TextView
+        android:id="@+id/answerTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="@dimen/standard_padding"
+        android:text="@string/answer_text_default"
+        android:textAlignment="center"
+        android:textAppearance="@android:style/TextAppearance.Material.Medium"
+        android:textColor="@android:color/black"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/resetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:padding="@dimen/standard_padding"
+        android:text="@string/reset_button_text" />
+
+</LinearLayout>

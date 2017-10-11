@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Fortune Teller</string>
+    <string name="question_complete_button">Done?</string>
+    <string name="shake_text">SHAKE!!!</string>
+    <string name="question_prompt_text">Enter a Question:</string>
+    <string name="reset_button_text">RESET</string>
+    <string name="answer_text_default">Your answer will appear here</string>
+    <string name="question_edit_text_default">Enter your question here</string>
+</resources>
